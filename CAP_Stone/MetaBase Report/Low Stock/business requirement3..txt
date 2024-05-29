@@ -1,0 +1,1 @@
+Detect items experiencing low stock levels, along with their corresponding week and warehouse numbers,
