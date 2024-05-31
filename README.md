@@ -32,13 +32,19 @@ This project involves an ETL (Extract, Transform, Load) process to manage and an
 - `boto3`, `requests`, `snowflake-connector-python` libraries
 
 ## Architecture
+
 **Data Ingestion:**
-    - **AWS Lambda**: Downloads inventory data from an API and uploads it to Snowflake.
-    - **Airbyte**: Extracts inventory data from various sources.
+
+*AWS Lambda*: Downloads inventory data from an API and uploads it to Snowflake.
+*Airbyte*: Extracts inventory data from various sources.
+    
 **Data Transformation**
-- **Snowflake**: Stores and processes the inventory data.
+
+*Snowflake*: Stores and processes the inventory data.
+
 **Data Analyzation**
-- **Metabase**: Visualizes the processed data.
+
+*Metabase*: Visualizes the processed data.
 
 ## Setup
 
