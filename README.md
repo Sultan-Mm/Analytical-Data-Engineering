@@ -18,7 +18,6 @@ This project involves an ETL (Extract, Transform, Load) process to manage and an
 
 - [Usage](#usage)
 
-- [License](#license)
 
 ## Prerequisites
 
